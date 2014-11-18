@@ -33,8 +33,7 @@ process.on('SIGINT', function() {
 });
 
 
-/** User SCHEMA **/
-/** Replace this Schema with your own(s) **/
+/** Wiki SCHEMA **/
 var wikiSchema = mongoose.Schema({
       title: { type: String, index: true},
       url: { type: String},
