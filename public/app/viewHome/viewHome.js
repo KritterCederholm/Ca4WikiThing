@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myAppRename.view1', ['ngRoute'])
+angular.module('myAppRename.home', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: '/partials/partial1',
+  $routeProvider.when('/viewHome', {
+    templateUrl: '/partials/home',
     controller: 'View1Ctrl'
   });
 }])

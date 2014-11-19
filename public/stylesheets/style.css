@@ -3,7 +3,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+
 a {
   color: #00B7FF;
 }
+
+
+.category-bar .navbar-default{
+  background-color: #dddddd;
+  height: 30px;
+}
+
+.category-bar .navbar-default .navbar-nav>li>a {
+
+}
+
+/*.category-bar a{*/
+  /*color: #161f29;*/
+/*}*/
 
