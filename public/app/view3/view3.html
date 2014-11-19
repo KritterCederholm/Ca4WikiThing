@@ -2,6 +2,6 @@
 <p>Data is fetched from a REST service, connected to MongoDB </p>
 <ul>
   <p style="color: red">{{error}}</p>
-  <li ng-repeat="user in users"> {{user.userName}} {{user.email}} </li>
+  <li ng-repeat="data in wiki | filter:{visible: true} | limitTo: 5"><p>{{data}}</p></li>
 </ul>
 </p>
