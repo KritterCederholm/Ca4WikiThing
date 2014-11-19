@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myAppRename.home', ['ngRoute'])
+angular.module('myAppRename.viewHome', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/viewHome', {
