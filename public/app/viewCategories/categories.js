@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('myAppRename.view3', ['ngRoute'])
+angular.module('myAppRename.viewCategories', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view3', {
-    templateUrl: 'app/view3/view3.html',
+  $routeProvider.when('/viewCategories', {
+    templateUrl: 'app/viewCategories/Categories.html',
     controller: 'View3Ctrl'
   });
 }])
