@@ -12,6 +12,7 @@
 6 verbose install     'debug',
 6 verbose install     'ejs',
 6 verbose install     'express',
+6 verbose install     'favicon',
 6 verbose install     'jade',
 6 verbose install     'mongoose',
 6 verbose install     'morgan',
@@ -34,82 +35,69 @@
 11 verbose already installed skipping debug@^2.0.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
 12 verbose already installed skipping ejs@^0.8.8 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
 13 verbose already installed skipping express@^4.9.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-14 verbose already installed skipping jade@^1.7.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-15 verbose already installed skipping mongoose@^3.8.18 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-16 verbose already installed skipping morgan@^1.3.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-17 verbose already installed skipping serve-favicon@^2.1.3 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-18 verbose already installed skipping bower@^1.3.1 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-19 verbose already installed skipping chai@^1.9.2 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-20 verbose already installed skipping karma@^0.12.24 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-21 verbose already installed skipping karma-chrome-launcher@^0.1.5 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-22 verbose already installed skipping karma-firefox-launcher@^0.1.3 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-23 verbose already installed skipping karma-jasmine@^0.1.5 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-24 verbose already installed skipping karma-junit-reporter@^0.2.2 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-25 verbose already installed skipping mocha@^2.0.1 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-26 verbose already installed skipping protractor@^1.1.1 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-27 verbose already installed skipping shelljs@^0.2.6 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-28 verbose already installed skipping should@^4.1.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-29 silly resolved []
-30 info build C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-31 verbose linkStuff [ false, false, false, 'C:\\Users\\Fisk\\WebstormProjects' ]
-32 info linkStuff ExpressAngularSeed@0.0.0
-33 verbose linkBins ExpressAngularSeed@0.0.0
-34 verbose linkMans ExpressAngularSeed@0.0.0
-35 verbose rebuildBundles ExpressAngularSeed@0.0.0
-36 verbose rebuildBundles [ '.bin',
-36 verbose rebuildBundles   'body-parser',
-36 verbose rebuildBundles   'bower',
-36 verbose rebuildBundles   'chai',
-36 verbose rebuildBundles   'cookie-parser',
-36 verbose rebuildBundles   'debug',
-36 verbose rebuildBundles   'ejs',
-36 verbose rebuildBundles   'express',
-36 verbose rebuildBundles   'favicon',
-36 verbose rebuildBundles   'jade',
-36 verbose rebuildBundles   'karma',
-36 verbose rebuildBundles   'karma-chrome-launcher',
-36 verbose rebuildBundles   'karma-firefox-launcher',
-36 verbose rebuildBundles   'karma-jasmine',
-36 verbose rebuildBundles   'karma-junit-reporter',
-36 verbose rebuildBundles   'mocha',
-36 verbose rebuildBundles   'mongoose',
-36 verbose rebuildBundles   'morgan',
-36 verbose rebuildBundles   'protractor',
-36 verbose rebuildBundles   'serve-favicon',
-36 verbose rebuildBundles   'shelljs',
-36 verbose rebuildBundles   'should' ]
-37 verbose rebuild bundle C:\Users\Fisk\WebstormProjects\Ca4WikiThing\node_modules\favicon
-38 info build C:\Users\Fisk\WebstormProjects\Ca4WikiThing\node_modules\favicon
-39 info preinstall favicon@0.0.2
-40 verbose linkStuff [ false,
-40 verbose linkStuff   false,
-40 verbose linkStuff   false,
-40 verbose linkStuff   'C:\\Users\\Fisk\\WebstormProjects\\Ca4WikiThing\\node_modules' ]
-41 info linkStuff favicon@0.0.2
-42 verbose linkBins favicon@0.0.2
-43 verbose linkMans favicon@0.0.2
-44 verbose rebuildBundles favicon@0.0.2
-45 verbose rebuildBundles [ 'request' ]
-46 info install favicon@0.0.2
-47 info postinstall favicon@0.0.2
-48 info install ExpressAngularSeed@0.0.0
-49 info postinstall ExpressAngularSeed@0.0.0
-50 verbose unsafe-perm in lifecycle true
-51 info ExpressAngularSeed@0.0.0 Failed to exec postinstall script
-52 error ExpressAngularSeed@0.0.0 postinstall: `bower install`
-52 error Exit status 1
-53 error Failed at the ExpressAngularSeed@0.0.0 postinstall script.
-53 error This is most likely a problem with the ExpressAngularSeed package,
-53 error not with npm itself.
-53 error Tell the author that this fails on your system:
-53 error     bower install
-53 error You can get their info via:
-53 error     npm owner ls ExpressAngularSeed
-53 error There is likely additional logging output above.
-54 error System Windows_NT 6.1.7601
-55 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
-56 error cwd C:\Users\Fisk\WebstormProjects\Ca4WikiThing
-57 error node -v v0.10.32
-58 error npm -v 1.4.28
-59 error code ELIFECYCLE
-60 verbose exit [ 1, true ]
+14 verbose already installed skipping favicon@0.0.2 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+15 verbose already installed skipping jade@^1.7.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+16 verbose already installed skipping mongoose@^3.8.18 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+17 verbose already installed skipping morgan@^1.3.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+18 verbose already installed skipping serve-favicon@^2.1.3 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+19 verbose already installed skipping bower@^1.3.1 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+20 verbose already installed skipping chai@^1.9.2 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+21 verbose already installed skipping karma@^0.12.24 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+22 verbose already installed skipping karma-chrome-launcher@^0.1.5 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+23 verbose already installed skipping karma-firefox-launcher@^0.1.3 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+24 verbose already installed skipping karma-jasmine@^0.1.5 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+25 verbose already installed skipping karma-junit-reporter@^0.2.2 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+26 verbose already installed skipping mocha@^2.0.1 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+27 verbose already installed skipping protractor@^1.1.1 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+28 verbose already installed skipping shelljs@^0.2.6 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+29 verbose already installed skipping should@^4.1.0 C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+30 silly resolved []
+31 info build C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+32 verbose linkStuff [ false, false, false, 'C:\\Users\\Fisk\\WebstormProjects' ]
+33 info linkStuff ExpressAngularSeed@0.0.0
+34 verbose linkBins ExpressAngularSeed@0.0.0
+35 verbose linkMans ExpressAngularSeed@0.0.0
+36 verbose rebuildBundles ExpressAngularSeed@0.0.0
+37 verbose rebuildBundles [ '.bin',
+37 verbose rebuildBundles   'body-parser',
+37 verbose rebuildBundles   'bower',
+37 verbose rebuildBundles   'chai',
+37 verbose rebuildBundles   'cookie-parser',
+37 verbose rebuildBundles   'debug',
+37 verbose rebuildBundles   'ejs',
+37 verbose rebuildBundles   'express',
+37 verbose rebuildBundles   'favicon',
+37 verbose rebuildBundles   'jade',
+37 verbose rebuildBundles   'karma',
+37 verbose rebuildBundles   'karma-chrome-launcher',
+37 verbose rebuildBundles   'karma-firefox-launcher',
+37 verbose rebuildBundles   'karma-jasmine',
+37 verbose rebuildBundles   'karma-junit-reporter',
+37 verbose rebuildBundles   'mocha',
+37 verbose rebuildBundles   'mongoose',
+37 verbose rebuildBundles   'morgan',
+37 verbose rebuildBundles   'protractor',
+37 verbose rebuildBundles   'serve-favicon',
+37 verbose rebuildBundles   'shelljs',
+37 verbose rebuildBundles   'should' ]
+38 info install ExpressAngularSeed@0.0.0
+39 info postinstall ExpressAngularSeed@0.0.0
+40 verbose unsafe-perm in lifecycle true
+41 info ExpressAngularSeed@0.0.0 Failed to exec postinstall script
+42 error ExpressAngularSeed@0.0.0 postinstall: `bower install`
+42 error Exit status 1
+43 error Failed at the ExpressAngularSeed@0.0.0 postinstall script.
+43 error This is most likely a problem with the ExpressAngularSeed package,
+43 error not with npm itself.
+43 error Tell the author that this fails on your system:
+43 error     bower install
+43 error You can get their info via:
+43 error     npm owner ls ExpressAngularSeed
+43 error There is likely additional logging output above.
+44 error System Windows_NT 6.1.7601
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+46 error cwd C:\Users\Fisk\WebstormProjects\Ca4WikiThing
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 error code ELIFECYCLE
+50 verbose exit [ 1, true ]
