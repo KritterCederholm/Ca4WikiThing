@@ -11,14 +11,14 @@ router.get('/wiki', function(req, res) {
     res.end("Error: "+global.mongo_error+" To get the list of wikiPages here, make sure the database are set-up on a fex test users (see model-->db.js for instructions)");
     return;
   }
-  wiki.find({}, function (err, users) {
+  wiki.find({}, function (err, wiki) {
     if (err) {
       res.status(err.status || 400);
       res.end(JSON.stringify({error: err.toString()}));
       return;
     }
     res.header("Content-type","application/json");
-    res.end(JSON.stringify(users));
+    res.end(JSON.stringify(wiki));
   });
 });
 
