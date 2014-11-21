@@ -9,8 +9,6 @@ angular.module('myAppRename', [
   'myAppRename.factories',
   'myAppRename.filters',
   'myAppRename.view1',
-  'myAppRename.view2',
-  'myAppRename.viewCategories',
   'myAppRename.viewCategories'
 ]).
 config(['$routeProvider', function($routeProvider) {
