@@ -5,7 +5,8 @@ angular.module('myAppRename.viewCategories', ['ngRoute'])
             .when('/viewCategories', {
             templateUrl: 'app/viewCategories/Categories.html',
             controller: 'View3Ctrl'
-        }). when('/:title', {
+        })
+            .when('/:wiki.indexOf(wikiPage)', {
                 templateUrl: 'app/viewCategories/wikiDetails.html',
                 controller: 'wikiPageDetailsCtrl'
             }).
@@ -42,8 +43,8 @@ angular.module('myAppRename.viewCategories', ['ngRoute'])
     })
 
     .controller('wikiPageDetailsCtrl', function($scope, $routeParams, wiki) {
-        wiki.find($routeParams.pageTitle, function(wikiPage) {
-            $scope.wikiPage = wikiPage;
+        wiki.find($routeParams.pageTitle, function(page) {
+            $scope.page = page;
         });
     })
 
