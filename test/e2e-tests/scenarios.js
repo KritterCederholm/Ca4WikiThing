@@ -6,19 +6,19 @@ describe('my app', function() {
 
   browser.get('/');
 
-  it('should automatically redirect to /view1 when location hash/fragment is empty', function() {
-    expect(browser.getLocationAbsUrl()).toMatch("/view1");
+  it('should automatically redirect to /viewWikiPage when location hash/fragment is empty', function() {
+    expect(browser.getLocationAbsUrl()).toMatch("/viewWikiPage");
   });
 
 
-  describe('view1', function() {
+  describe('viewWikiPage', function() {
 
     beforeEach(function() {
-      browser.get('#/view1');
+      browser.get('#/viewWikiPage');
     });
 
 
-    it('should render view1 when user navigates to /view1', function() {
+    it('should render viewWikiPage when user navigates to /viewWikiPage', function() {
       expect(element.all(by.css('[ng-view] p')).first().getText()).
         toMatch(/partial for view 1/);
     });

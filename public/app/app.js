@@ -8,9 +8,9 @@ angular.module('myAppRename', [
   'myAppRename.services',
   'myAppRename.factories',
   'myAppRename.filters',
-  'myAppRename.view1',
+  'myAppRename.viewWikiPage',
   'myAppRename.viewCategories'
 ]).
 config(['$routeProvider', function($routeProvider) {
-    $routeProvider.otherwise({redirectTo: '/view1'});
+    $routeProvider.otherwise({redirectTo: '/viewWikiPage'});
 }]);

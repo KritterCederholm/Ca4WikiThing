@@ -1,15 +1,15 @@
 'use strict';
 
-angular.module('myAppRename.view1', ['ngRoute'])
+angular.module('myAppRename.viewWikiPage', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
       $routeProvider
-              .when('/view1', {
-            templateUrl: 'app/view1/view1.html',
+              .when('/viewWikiPage', {
+            templateUrl: 'app/viewWikiPage/viewWikiPage.html',
             controller: 'View1Ctrl'
           })
             .when('/:wiki.indexOf(wikiPage)', {
-                templateUrl: 'app/view1/wikiDetails.html',
+                templateUrl: 'app/viewWikiPage/wikiDetails.html',
                 controller: 'wikiPageDetailsCtrl'
             }).
             otherwise({

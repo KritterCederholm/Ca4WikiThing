@@ -1,10 +1,10 @@
 'use strict';
 
-describe('myAppRename.view1 module', function() {
+describe('myAppRename.viewWikiPage module', function() {
 
-  beforeEach(module('myAppRename.view1'));
+  beforeEach(module('myAppRename.viewWikiPage'));
 
-  describe('view1 controller', function(){
+  describe('viewWikiPage controller', function(){
 
     it('should ....', inject(function($controller) {
       //spec body
